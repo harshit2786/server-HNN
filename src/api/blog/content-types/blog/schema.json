@@ -21,7 +21,7 @@
     "Footer": {
       "type": "string"
     },
-    "url": {
+    "Summary": {
       "type": "string"
     },
     "Type": {
