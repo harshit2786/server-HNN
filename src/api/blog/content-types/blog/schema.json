@@ -21,9 +21,6 @@
     "Footer": {
       "type": "string"
     },
-    "Summary": {
-      "type": "string"
-    },
     "Type": {
       "type": "enumeration",
       "enum": [
@@ -37,6 +34,9 @@
     },
     "Path": {
       "type": "string"
+    },
+    "Complete": {
+      "type": "text"
     }
   }
 }

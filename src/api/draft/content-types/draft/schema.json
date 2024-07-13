@@ -32,11 +32,11 @@
     "Footer": {
       "type": "string"
     },
-    "Summary": {
-      "type": "string"
-    },
     "Path": {
       "type": "string"
+    },
+    "Complete": {
+      "type": "text"
     }
   }
 }

@@ -377,11 +377,11 @@ export interface ApiBlogBlog extends Schema.CollectionType {
     Title: Attribute.String;
     Content: Attribute.Text;
     Footer: Attribute.String;
-    Summary: Attribute.String;
     Type: Attribute.Enumeration<
       ['Poem', 'Story', 'Memoir', 'Note', 'Quote', 'Other']
     >;
     Path: Attribute.String;
+    Complete: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -410,8 +410,8 @@ export interface ApiDraftDraft extends Schema.CollectionType {
       ['Poem', 'Memoir', 'Story', 'Quote', 'Note', 'Other']
     >;
     Footer: Attribute.String;
-    Summary: Attribute.String;
     Path: Attribute.String;
+    Complete: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

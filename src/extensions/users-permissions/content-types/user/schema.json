@@ -66,7 +66,8 @@
       "configurable": false
     },
     "Password2": {
-      "type": "string"
+      "type": "string",
+      "unique": false
     }
   }
 }
